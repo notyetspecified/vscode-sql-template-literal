@@ -3,16 +3,15 @@
 Syntax highlighting for code like:
 
 ```js
-const query = sql`SELECT * FROM users`;
+const query = /*sql*/`SELECT * FROM users`;
 ```
 
 ## Publishing
 
-May require token, stored in last pass. Go to
-https://forbeslindesay.visualstudio.com/_details/security/tokens if token needs
-regenerating.
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension#publishing-extensions
 
 ```
 npm install -g vsce
+vsce package
 vsce publish
 ```
