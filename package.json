@@ -2,12 +2,12 @@
     "name": "vscode-sql-template-literal",
     "displayName": "vscode-sql-template-literal",
     "description": "Syntax highlighting for sql in template literals",
-    "version": "0.1.0",
-    "publisher": "forbeslindesay",
+    "version": "0.1.1",
+    "publisher": "ladeiras",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ForbesLindesay/vscode-sql-template-literal.git"
+        "url": "https://github.com/Ladeiras/vscode-sql-template-literal.git"
     },
     "engines": {
         "vscode": "^1.5.0"
