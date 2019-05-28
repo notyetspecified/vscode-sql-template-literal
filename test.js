@@ -1,1 +1,1 @@
-const query = sql`SELECT * FROM users`;
+const query = /*sql*/`SELECT * FROM users`;
