@@ -5,7 +5,7 @@
     {
       "name": "taggedTemplates",
       "contentName": "meta.embedded.block.sql",
-      "begin": "(?x)(\\s*?(\\w+\\.)?(?:sql|/\\*\\s*sql\\s*\\*/)\\s*)(`)",
+      "begin": "(?x)(\\s*?(\\w+\\.)?(?:(sql|SQL)|/\\*\\s*(sql|SQL)\\s*\\*/)\\s*)(`|'|\")",
       "beginCaptures": {
         "1": {
           "name": "entity.name.function.tagged-template.js"
@@ -17,7 +17,7 @@
           "name": "punctuation.definition.string.template.begin.js"
         }
       },
-      "end": "(`)",
+      "end": "(`|'|\")",
       "endCaptures": {
         "0": {
           "name": "string.js"
