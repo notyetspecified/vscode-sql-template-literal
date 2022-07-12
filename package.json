@@ -2,7 +2,7 @@
   "name": "vscode-inline-sql",
   "displayName": "Inline SQL",
   "description": "Syntax highlighting for sql in template literals",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "publisher": "jtladeiras",
   "license": "MIT",
   "repository": {
