@@ -1,7 +1,7 @@
 const user = 'user';
 
 const query = /* sql */`
-  SELECT * 
+  SELECT *
   FROM "${user}" u
 `;
 
